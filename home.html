@@ -1,45 +1,49 @@
 <!doctype html>
 <html>
   <head>
-    <meta charset = "utf-8">
-    <title>Introduction</title>
+    <meta charset="utf-8">
+    <title>home</title>
     <style>
-        header {
-        background-color: orange;
-        padding: 30px;
+      a{
+        text-decoration: none;
+      }
+      img{
+        width : 500px;
+        height : 400px;
+      }
+      p{
+        font-style: italic;
+      }
+      h1{
+        font-size: 50px;
+      }
+      #title{
+        font-size:100px;
         text-align: center;
-        font-size: 35px;
-        color: white;
-
-        h1{
-        background-color : Tomato ;
-          }
-
+      }
+      ul{
+        padding: 0;
+        border: 1px solid blue;
+      }
     </style>
   </head>
   <body>
-    <header>
-      <a href="main.html"><h1>안녕하세요.</h1></a>
-    </header>
-    <section>
-      <nav>
-        <ul>
-          <a href=""><li>about</li></a>
-          <a href=""><li>dream</li></a>
-          <a href=""><li>like</li></a>
-        </ul>
-      </nav>
-      <article>
-        <h1>안녕하세요 제 이름은 서윤정입니다.</h1>
-        <p><em>저에 대해</em> <u>소개할게요.</u> <strong  style="color:MediumSeaGreen;">만나서 반갑습니다.</strong></p>
-        연락을 하시려면<br>
-        아래 방법을 통해 연락주세요.<br>
-        <img src="door2.jpg" width="100%">
-      </article>
-    </section>
-    <footer>
-      <a href="https://a-nanas.tistory.com/" target="_blank" title="놀러오라구!">또 다른 너굴맨 집 놀러가기</a>
-      나에게 연락을 원하십니까? email: github:
-    </footer>
+    <h1 id="title">hello world :)</h1>
+    <ul>
+    <a href="#about"><li>about</li></a>
+    <a href="#like"><li>like</li></a>
+    <a href="#dream"><li>dream</li></a>
+    </ul>
+    i'm yunjeong. What a pleasure to meet you!
+    <h1 id="about">About</h1>
+    <img src="coding.jpg" width="100%">
+    <p>I started to code cause I wanted to do something productive.</p>
+    <h1 id="like">Like</h1>
+    <img src="green3.jpg" width="100%">
+    <p>i like green thing and game.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Pq_1qPyTIKg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h1 id="dream">Dream</h1>
+    <img src="good.jpg" width="100%">
+    <p>Making your lifestyle comfortable.</p>
   </body>
 </html>
