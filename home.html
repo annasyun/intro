@@ -3,47 +3,44 @@
   <head>
     <meta charset="utf-8">
     <title>home</title>
-    <style>
-      a{
-        text-decoration: none;
-      }
-      img{
-        width : 500px;
-        height : 400px;
-      }
-      p{
-        font-style: italic;
-      }
-      h1{
-        font-size: 50px;
-      }
-      #title{
-        font-size:100px;
-        text-align: center;
-      }
-      ul{
-        padding: 0;
-        border: 1px solid blue;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1 id="title">hello world :)</h1>
-    <ul>
-    <a href="#about"><li>about</li></a>
-    <a href="#like"><li>like</li></a>
-    <a href="#dream"><li>dream</li></a>
-    </ul>
-    i'm yunjeong. What a pleasure to meet you!
-    <h1 id="about">About</h1>
-    <img src="coding.jpg" width="100%">
-    <p>I started to code cause I wanted to do something productive.</p>
-    <h1 id="like">Like</h1>
-    <img src="green3.jpg" width="100%">
-    <p>i like green thing and game.</p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/Pq_1qPyTIKg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <h1 id="dream">Dream</h1>
-    <img src="good.jpg" width="100%">
-    <p>Making your lifestyle comfortable.</p>
+
+    <h1 class="header">hello world :)</h1>
+
+    <div class="nav">
+      <a href="index.html">welcome</a>
+      <a href="#about">about</a>
+      <a href="#contact">contact</a>
+    </div>
+
+    <div class="container">
+      <div id= "grid">
+      <div>
+          <h2 id="about">About</h2>
+                <img src="coding.jpg" width="100%">
+                <p>What a pleasure to meet you! i'm yunjeong.<br>
+                  I started to code cause I wanted to do something productive.</p>
+     </div>
+     <div>
+          <h2>Like</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Pq_1qPyTIKg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p>i like game.</p>
+     </div>
+     <div>
+          <h2>Dream</h2>
+                <img src="good.jpg" width="100%">
+                <p>Making your lifestyle comfortable.</p>
+
+    </div>
+  </div>
+
+  <h2 id="contact">Contact</h2>
+<p>
+  <a href="https://github.com/annasyun">github</a>
+  <a href="https://velog.io/@ananasyun">blog</a>
+</p>
+    </div>
   </body>
 </html>

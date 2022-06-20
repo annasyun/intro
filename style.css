@@ -1,0 +1,49 @@
+a{
+  text-decoration: none;
+  color:black;
+}
+img{
+  width:200px;
+  height:200px;
+  border-radius: 95%;
+  padding : 30px;
+}
+p{
+  font-style: italic;
+}
+h2{
+  margin : 0;
+  font-size: 30px;
+}
+.header{
+  font-size:100px;
+  text-align: center;
+  background-color: tomato;
+  padding:50px ;
+  margin : 0;
+}
+
+.nav{
+  text-align: center;
+  background-color: DarkOrange;
+  padding:20px;
+}
+.nav a{
+  font-size: 20px;
+  padding:20px;
+  text-decoration: none;
+  color:black;
+}
+.container{
+  background-color: DarkOrange;
+}
+#grid{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  font-size: 15px;
+}
+@media(max-width : 800px) {
+  #grid{
+    display : block;
+  }
+}
